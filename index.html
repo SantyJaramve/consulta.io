@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VPN en MikroTik: Concepto, Tipos y Pasos para la Creación</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" href="img/ico.png">
+</head>
+<body>
+    <header>
+        <h1>VPN en MikroTik</h1>
+    </header>
+    <section>
+        <div class="container">
+            <h2>¿Qué son las VPN en MikroTik?</h2>
+            <p>Las VPN (Virtual Private Network) en MikroTik son una solución de red segura que permite la interconexión de redes locales a través de una conexión pública, como Internet. Una VPN en MikroTik establece un túnel cifrado entre dos puntos, permitiendo que los datos se transmitan de forma segura y privada.</p>
+            
+            <p>Las VPN en MikroTik ofrecen una serie de beneficios, como el acceso remoto a la red local, la interconexión de sucursales y la protección de la información sensible frente a amenazas externas.</p>
+            <img src="vpn.png" alt="">
+        </div>
+        <div class="container">
+            <h2>Tipos de VPN en MikroTik</h2>
+            <p>MikroTik ofrece varios tipos de VPN que se pueden utilizar según las necesidades específicas de cada entorno:</p>
+            <ol>
+                <li>PPTP (Point-to-Point Tunneling Protocol)</li>
+                <li>L2TP/IPSec (Layer 2 Tunneling Protocol with IP Security)</li>
+                <li>OpenVPN</li>
+            </ol>
+        </div>
+    <header>
+        <h1>Creación de una VPN en MikroTik</h1>
+    </header>
+    <section>
+        <div class="container">
+            <h2>Paso 1: Acceder a la interfaz de administración</h2>
+            <p>Conecta tu equipo MikroTik a través de un cable de red al puerto Ethernet de tu computadora. Luego, abre un navegador web e ingresa la dirección IP predeterminada del enrutador MikroTik en la barra de direcciones.</p>
+            <img src="PASO1.PNG" alt="">
+        </div>
+        <div class="container">
+            <h2>Paso 2: Configurar la interfaz WAN</h2>
+            <p>Accede a la interfaz de administración y configura la interfaz WAN para establecer la conexión a Internet. Asegúrate de proporcionar la dirección IP y la configuración DNS adecuadas.</p>
+            <img src="PASO2.PNG" alt="">
+        </div>
+        <div class="container">
+            <h2>Paso 3: Configurar la interfaz LAN</h2>
+            <p>Configura la interfaz LAN para proporcionar conectividad a la red local. Asigna una dirección IP y configura la máscara de subred correspondiente.</p>
+            <img src="PASO3.PNG" alt="">
+        </div>
+        <div class="container">
+            <h2>Paso 4: Configurar el tipo de VPN</h2>
+            <p>Selecciona el tipo de VPN que deseas configurar en MikroTik, como PPTP, L2TP o OpenVPN. Cada tipo tiene sus propias consideraciones de seguridad.</p>
+            <img src="PASO4.PNG" alt="">
+        </div>
+        <div class="container">
+            <h2>Paso 5: Configurar los parámetros de la VPN</h2>
+            <p>Establece los parámetros específicos de la VPN, como nombre de usuario, contraseña y dirección IP del servidor VPN.</p>
+            <img src="PASO5.PNG" alt="">
+            <img src="PASO51.PNG" alt="">
+        </div>
+        <div class="container">
+            <h2>Paso 6: Configurar las reglas de firewall</h2>
+            <p>Agrega reglas de firewall para permitir el tráfico de la VPN a través del enrutador MikroTik. Esto garantizará que los paquetes VPN sean correctamente enrutados.</p>
+            <img src="PASO6.PNG" alt="">
+        </div>
+        <div class="container">
+            <h2>Paso 7: Prueba la conexión VPN</h2>
+            <p>Desde un cliente externo, intenta conectarte a la VPN utilizando los parámetros de conexión proporcionados. Verifica si puedes establecer una conexión exitosa.</p>
+            <img src="PASO7.PNG" alt="">
+        </div>
+    </section>
+    <footer>
+        <p>© 2023</p>
+    </footer>
+</body>
+</html>
